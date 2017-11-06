@@ -1,5 +1,11 @@
-//: Playground - noun: a place where people can play
 
 import UIKit
 
-var str = "Hello, playground"
+func loveCalculator (yourName : String, theirName : String) -> UInt32 {
+    
+    let loveScore = arc4random_uniform(101)
+    
+    return loveScore
+}
+
+print(loveCalculator(yourName: "Edward", theirName: "Scarlett"))
